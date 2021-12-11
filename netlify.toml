@@ -1,5 +1,0 @@
-[build]
-  command = "hugo -s site"
-
-[context.deploy-preview]
-  command = "hugo --enableGitInfo -d dist -s site -v --buildDrafts --buildFuture"
