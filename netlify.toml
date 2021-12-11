@@ -1,6 +1,5 @@
 [build]
   command = "hugo -s site"
-  publish = "public"
 
 [context.deploy-preview]
   command = "hugo --enableGitInfo -d dist -s site -v --buildDrafts --buildFuture"
